@@ -1,0 +1,216 @@
+  Window History :- 
+                  Before Windows, Microsoft’s operating systems were much simpler. Early computers ran
+                  MS-DOS, which showed a black screen where you had to type commands instead of clicking 
+                  icons. In 1985, Microsoft released Windows 1.0, a basic graphical user interface (GUI)
+                  built on top of DOS, introducing windows, menus, and mouse controls to personal computers. 
+                   Windows has added more features.
+
+
+  Window Areas :-
+                * Desktop :
+                           The main workspace where files, folders, and shortcuts live.
+                           Main screen where icons placed.
+                * Taskbar :
+                           Bottom strip where start button , time and current running
+                           tasks and software placed.
+
+                * Start Menu :
+                              It is like a heart of programs it is open when we click open
+                              button . The main workspace where files, folders, and shortcuts
+                              live ,access applications, settings, and power options.
+
+                * File Explorer :
+                                 It is like a cabinet where all file ,folder, partitions
+                                 and Documents placed.
+
+                * Setting :
+                           We can set every setting like wallpaper , sound and WiFi placed
+                           here.
+
+                * Kernel :
+                          It is like internal brain which is invisible and control hardware.
+
+                * Search :
+                          Quickly find applications, files, folders, and system settings by using
+                          keywords .
+
+                * Task View :
+                            Allows you to see all currently open windows and quickly switch between
+                            them.
+
+                * Pinned Applications and Folders :
+                                                   Your most used applications and folders can be pinned
+                                                    here.
+
+                * Network and audio setting :
+                                             It use to access network and sound settings.
+
+                * Date and time :
+                                 Opens up to a full calendar. Date and time settings can be accessed
+                                  here, too .
+
+
+                * Notifications :
+                                 Displays computer or application notifications. Network and other settings
+                                  can also be accessed .
+
+                * Microsoft Store:
+                                   The native Windows application for installing trusted applications.
+
+                * Windows Update:
+                                   A built-in update tool that helps keep your OS, native apps, and security
+                                    features up to date .
+
+                * Control Panel:
+                                 The legacy management interface that provides access to system configuration
+                                 options .
+
+                * Task Manager:
+                                A Windows tool for monitoring what is happening on your system in real time.
+
+                * Windows Security:
+                                  The central dashboard for managing Windows built-in security tools .
+
+                * Windows Defender Firewall:
+                                            The firewall designed to help protect your system from unauthorized
+                                             network traffic .
+
+
+   Basic CMD Commands :-
+                        * cd ( pwd ) :
+                              To check current dir location.
+
+                        * dir ( ls ) :
+                               To list contents in folder .
+
+                        * dir /a ( ls -la) :
+                                            List in detail.
+
+                        * cd folder name :
+                                          To change directory or folder.
+
+                         * cd .. :
+                                   To change directory one step back.
+
+                         * cls :
+                               To clear screen.
+
+
+                        * ipconfig :
+                                    To check ip address.
+
+                        * tasklist(ps aux) :
+                                    List of all running task or processes.
+
+                        * taskkill /PID 1234 :
+                                              To terminate task from tasklist.
+
+                        * systeminfo (uname -a) :
+                                      window version and PC info.
+
+                        * whoami :
+                                  Who user logged in.
+
+                        * type nul file.txt:
+                                            To create a file.
+
+                        * type filename.txt:
+                                            To read content from file.
+
+                        * copy file.txt file2.txt :
+                                                   To copy a file.
+
+                        * del filename.txt :
+                                            To delete a file .
+
+                        * mkdir New folder :
+                                            To create a folder.
+
+                        * rmdir Folder name :
+                                             To delete folder.
+
+                        * ver :
+                                window version.
+
+                        * tracert <google.com> :
+                                                To check data is passing from which
+                                                route.
+
+                        * netstat -ano :
+                                        To check which port is open and which program
+                                        use which port (ano) mean show all.
+
+
+                        * ping <google.com> :
+                                             To check internet.
+
+                        * nslookup <google.com> :
+                                                 To check the domain of ip.
+
+                        * \ :
+                             To locate in window.
+
+                        * / :
+                             To locate in Linux.
+
+
+  Basic Window Shortcuts :-
+                          * Win :
+
+                          * Win + D :
+
+                          * Win + E :
+
+                          * Win + I :
+
+                          * Win + R :
+
+                          * Win + L :
+
+                          * Win + X :
+
+                          * Alt +F4 :
+
+                          * Ctrl + Shift + Esc :
+
+                          * Ctrl + C :
+
+                          * Ctrl + V :
+
+                          * Ctrl + X :
+
+                          * Ctrl + Z :
+
+                          * Ctrl + Y :
+
+                          * Ctrl + A :
+
+                          * Ctrl + F :
+
+                          * Ctrl + S :
+
+                          * Alt + Tab :
+
+                          * Win + Tab :
+
+                          * Win + Arrow Key :
+
+                          * Ctrl + W :
+
+                          * Ctrl + Shift + T :
+
+                          * Ctrl + Shift + S :
+
+                          * Shift + Del :
+
+                          * 
+                          *
+                          *
+                          *
+
+
+
+
+
+
+

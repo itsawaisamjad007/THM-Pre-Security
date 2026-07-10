@@ -1,0 +1,168 @@
+
+ Operating System :-
+                     An operating system
+                     (OS) is the core software that coordinates
+                      everything happening on a computer. It sits between
+                      the user, applications, and the system’s physical
+                      hardware, acting as the invisible manager that
+                      keeps the entire machine running as one unified system
+                      It is translater between us and computer . It
+                      help us to perform different task on computer
+                      and it provide an interface through which we
+                       can interact with computer .
+
+ Learning objectives in THM :-
+                             If i have a computer which is untouched for
+                             a long time . And I can't remember much about
+                             it . Then to start it I need to have knowledge
+                             about its primary and basic things like.
+
+                             * Understand what an operating system is running.
+                             * Explain the core duties of an operating system.
+                             * Identify common OS types and their typical use cases.
+                             * Practice interacting with an OS to gather system
+                               information.
+ System Privilege Layers :-
+                        OS divide into two parts.
+
+                         * Kernal Space :
+                                         It is like heart of OS which direct
+                                         control the hardware like CPU,RAM ,
+                                         Hard Disk , WiFi etc. Its access is
+                                         unrestricted it can do any thing
+                                         which it want. If it crash whole
+                                         PC crash
+                         * User Space :
+                                         The space of OS where our apps run
+                                         like chrome , Word , Pycharm. Its
+                                         access is restricted it cannot control
+                                         the hardware directly . If One app crash
+                                         then other will not affected . Like in
+                                         Linux we take root permission from system
+                                         for change in its critical settings.
+OS Duties :-
+           * Process management :
+                                 Creates, schedules, prioritizes, and terminates
+                                 running programs. The OS decides how much CPU time
+                                 each process gets, making multitasking feel seamless.
+                                 For Example:
+                                   Opening multiple apps, like your browser
+                                 , music player, and social media, without your computer
+                                  freezing .
+           * Memory Management :
+                                Allocates RAM to processes, protects the app's memory
+                                from other processes, and reclaims memory when apps
+                                 are closed. When RAM runs low, the OS uses virtual
+                                 memory to keep your system stable.
+                                 For Example :
+                                              Opening multiple app at once, the OS
+                                              allocates RAM to each one and keeps them
+                                               isolated so they don’t interfere or crash
+                                               each other.
+
+           * File System management :
+                                     Organizes files into directories, handles naming,
+                                      paths, permissions, metadata (name, size, type,
+                                      timestamps).
+                                      For Example :
+                                                   Creating a new folder, saving a photo
+                                                   , or setting a file to "read only".
+
+           * User Management :
+                              Handles multiple user accounts, authentication, and permissions
+                               to determine who can access what.
+                               For Example :
+                                            Logging in with your password and keeping your
+                                             files inaccessible to other user accounts.
+
+           * Device Management :
+                                Loads drivers and provides a universal interface (hardware
+                                abstraction layer), so apps can say “print this” or “play
+                                 this sound”.
+                                 For Example :
+                                              Plugging in a new mouse, printer, or external
+                                               hard drive and having it work immediately.
+
+ Operating System Security :-
+                             An OS also act as security foundations before installing antivirus
+                             or firewall.
+
+                    Our Operating system handles :-
+
+                                         * Authentication:
+                                                         Verifies who you are through login passwords
+                                                          and biometrics.
+                                         * Permissions:
+                                                        Controls exactly what each user and app is
+                                                         allowed to read, write, or execute.
+                                         * Isolation:
+                                                     Keeps every process in its own protected box (kernel
+                                                     /user space separation).
+                                         * System Protection:
+                                                           Safeguards critical system files and settings
+                                                           from unauthorized changes.
+
+ Operating System Interface :-
+                             * Graphical User Interface (GUI) :
+                                                              It provides a graphical representation of
+                                                              all the information you want to access on
+                                                              your computer.  folder icons, windows for
+                                                              your applications, and menus for settings.
+
+
+                             * Command-Line Interface (CLI)  :
+                                                              The CLI is where you enter specific text
+                                                              -based commands to retrieve or manipulate
+                                                               information. Instead of clicking on icons
+                                                               , you tell the computer exactly what you
+                                                               want using words and syntax that the system
+                                                               understands.This gives you far more
+                                                                precision, control, and speed, especially
+                                                                for advanced tasks, but it requires familiarity
+                                                                with the commands.
+Operating System Types :-
+                         * Desktop OS :
+                                       Used in Personal computers, daily work, gaming, content creation.Rich
+                                       graphic interface(Icon,wallpaper,start menu and every thing ), runs
+                                       many apps at once, user-focused(To happy only single user at a time) .Like
+                                       Window 10 /11 , macOS ,Ubuntu Desktop ,Linux, Debian.
+
+                         * Server OS :
+                                       Web hosting, databases, cloud services, back-end.Headless (no GUI not
+                                       screen ,no mouse or keyboard only run by commands),
+                                       maximum uptime (It is not closed in whole year), multi-user,
+                                       remote access (Admin can control it sitting at home).It is
+                                       used when you are hacking a website. Like Window server,Ubuntu
+                                       Server ,Centre OS. , Unix .
+
+
+                         * Mobile OS :
+                                      Smartphones and tablets	Touch-based UI (Run with finger), power
+                                      efficient(Save battery power), always connected(connected with 4G or 5G)
+                                      , app sandboxing. Like Android , iOS(iphone,ipad) , KaiOS.
+
+
+                         * Embedded OS :
+                                       Appliances, cars, IoT devices, smart TVs, routers.Tiny footprint
+                                       (very small used for 1 work), runs on limited hardware(Fridge,Car
+                                       CCTV ,Router) . Like OS used in our WiFi router .
+
+
+                         * Virtual / Cloud OS :
+                                                Lab machines, containers, cloud instances	Lightweight(
+                                                We can create new PC in 5sec ), scalable(if traffic jam
+                                                then one server become 100 server), rapid deployment.
+                                                Just like Attack box of THM . THM create new PC or OS in
+                                                few second which is called virtual OS.Ubuntu LTS, Amazon
+                                                Linux, Rocky Linux
+
+ Why So Many Operating Systems?
+                               Different devices and environments require different capabilities from an OS.
+                                A laptop must be user-friendly and support multitasking. Servers require
+                                stability, security, and must be able to run continuously without interruption.
+                                Mobile devices need power efficiency and hardware integration to extend battery
+                               life. Embedded systems use lightweight operating systems designed for a specialized
+                                purpose.
+
+
+
