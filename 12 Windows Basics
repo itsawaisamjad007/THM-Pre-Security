@@ -80,6 +80,9 @@
                         * cd ( pwd ) :
                               To check current dir location.
 
+                        * help command :
+                                        To know help of command.
+
                         * dir ( ls ) :
                                To list contents in folder .
 
@@ -96,16 +99,16 @@
                                To clear screen.
 
 
-                        * ipconfig :
+    VIP                 * ipconfig :
                                     To check ip address.
 
-                        * tasklist(ps aux) :
+    VIP                 * tasklist(ps aux) :
                                     List of all running task or processes.
 
                         * taskkill /PID 1234 :
                                               To terminate task from tasklist.
 
-                        * systeminfo (uname -a) :
+    VIP                 * systeminfo (uname -a) :
                                       window version and PC info.
 
                         * whoami :
@@ -156,61 +159,73 @@
 
   Basic Window Shortcuts :-
                           * Win :
-
+                                To Open start menu
                           * Win + D :
-
+                                     All minimize to desktop.
                           * Win + E :
-
+                                     To open File Explorer.
                           * Win + I :
-
+                                     To open setting.
                           * Win + R :
-
-                          * Win + L :
-
+                                     To open run box.
+ VIP                      * Win + L :
+                                     Instant Window lock
                           * Win + X :
-
+                                     To open window user menu.
                           * Alt +F4 :
-
-                          * Ctrl + Shift + Esc :
-
+                                     To close a window
+ VIP                      * Ctrl + Shift + Esc :
+                                                To open task manager.
                           * Ctrl + C :
-
+                                        To copy anything
                           * Ctrl + V :
-
+                                        To paste
                           * Ctrl + X :
-
+                                       To cut.
                           * Ctrl + Z :
-
+                                     To undo
                           * Ctrl + Y :
-
+                                      To redo
                           * Ctrl + A :
-
+                                      To select all.
                           * Ctrl + F :
-
+                                      To open search tab.
                           * Ctrl + S :
-
+                                      To save
                           * Alt + Tab :
-
+                                      To move across running task.
                           * Win + Tab :
-
+                                       To move across running window.
                           * Win + Arrow Key :
+                                             To minimize window
+                          * Ctrl + t :
+                                      To open new tab in browser
 
                           * Ctrl + W :
-
-                          * Ctrl + Shift + T :
-
-                          * Ctrl + Shift + S :
+                                      To close tab in browser
+VIP                       * Ctrl + Shift + T :
+                                             To open closed tab in browser
+VIP                       * Ctrl + Shift + S :
+                                             To take screenshot
 
                           * Shift + Del :
-
-                          * 
-                          *
-                          *
-                          *
-
-
-
-
+                                          Permanently delete a file
+VIP                       * Ctrl + Shift + N :
+                                              To create new folder
+VIP                       * Win + . :
+                                     To open emoji and operation tab
+VIP                       * Win + V :
+                                     To check clipboard.
+VIP                       * Ctrl + Win + D :
+                                           To create a virtual window.
+                          * Ctrl + Win + F4 :
+                                             To close virtual window
+VIP                       * Win + Ctrl + Shift + B :
+                                                    Graphics driver restart
+VIP                       * Win + G :
+                                    open XBOX window bar screen recording.
+VIP                       * Alt + Enter :
+                                        To show properties of folder.
 
 
 
