@@ -1,0 +1,45 @@
+Operating System Security :
+                          The way of secure OS from unauthorized access
+                          is called OS security . It include window and
+                          Linux both.
+
+ Main part of Security:
+                       * Accounts :
+                                    Which number of user in OS , Admin , guest
+                                    , normal user . we should close the guest
+                                    password . close direct login from root m,
+                                    every user should have unique password.
+                       * Passwords :
+                                    Login password  . We should use strong
+                                    password more than 12 character
+                       * File Permission :
+                                         Which file has which permission.
+                                         Like read, write , or execute.
+                                         Hacker first find chmod 777 file.
+                                         To remain safe  keep important
+                                         files in chmod 700 only owner access
+
+                       * Logging and auditing :
+                                                It is like OS CCTV , hacker often
+                                                delete it so no one can know about
+                                                his logging.
+                                                To save from it Logging keep on in
+                                                /var/log/auth.log
+                       * Patching and Update :
+                                            In old version there are holes where
+                                            attacker attack . So we should regularly
+                                            update apt and upgrade every week
+
+                       * Firewalls :
+                                    It is like the gatekeeper which stop unauthorized
+                                    entry in window or linux . So we should on it and we
+                                    should close the non important ports
+
+   Points Of conclusion :-
+                          Where attacker can attack easily :
+                                                            Weak account + Week password
+                                                            + open permission + old version.
+
+                          To keep safe :
+                                        Strong account + Strong password + tight permission
+                                        + Update OS + Firewall + Log
