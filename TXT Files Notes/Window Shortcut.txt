@@ -1,0 +1,54 @@
+__________________________________________________________________________________________
+|                                                                                          |
+|                       WINDOWS  SHORTCUTS   [ BASIC SCREEN ]                              |
+|                      ====================  ================                               |
+|                                                                                          |
+|   Windows shortcuts aur basic keys jinse hum system par bina mouse ke                    |
+|   tezi se kaam kar sakte hain aur screens navigate karte hain.                          |
+|                                                                                          |
+| ┌───────────────┬─────────────────────────┬──────────────────────┬──────────────────────┐|
+| │ SHORTCUT KEY  │           USE           │       EXAMPLE        │     DESCRIPTION      │|
+| ├───────────────┼─────────────────────────┼──────────────────────┼──────────────────────┤|
+| │ Win           │ Open Start Menu         │ Win Key press karein │ Start menu kholta hai│|
+| │ Win + D       │ Desktop show/hide       │ Win + D              │ Sab windows minimize │|
+| │               │                         │                      │ karke desktop dikhata│|
+| │ Win + E       │ File Explorer open      │ Win + E              │ "My Computer" ya     │|
+| │               │                         │                      │ files kholta hai.    │|
+| │ Win + L       │ Lock PC                 │ Win + L              │ Computer ko lock     │|
+| │               │                         │                      │ screen par le jata.  │|
+| │ Win + R       │ Open Run Dialog box     │ Win + R              │ Direct commands run  │|
+| │               │                         │                      │ karne ke liye window.│|
+| │ Win + I       │ Open Settings           │ Win + I              │ Windows ki main      │|
+| │               │                         │                      │ settings kholta hai. │|
+| │ Win + Tab     │ Task View               │ Win + Tab            │ Sabhi chalne wali    │|
+| │               │                         │                      │ screens dikhata hai. │|
+| │ Alt + Tab     │ Switch Apps             │ Alt + Tab hold       │ Ek app se dosre app  │|
+| │               │                         │                      │ par switch karta hai.│|
+| │ Alt + F4      │ Close App / Shutdown    │ Alt + F4             │ Current app band ya  │|
+| │               │                         │                      │ PC shutdown karta hai│|
+| │ Ctrl + Shift+ │ Open Task Manager       │ Ctrl + Shift + Esc   │ Running apps aur CPU │|
+| │          Esc  │                         │                      │ performance dikhata. │|
+| │ Win + PrtScn  │ Take Screenshot         │ Win + PrintScreen    │ Screen ka screenshot │|
+| │               │                         │                      │ lekar Pictures me    │|
+| │               │                         │                      │ save kar deta hai.   │|
+| └───────────────┴─────────────────────────┴──────────────────────┴──────────────────────┘|
+|                                                                                          |
+|  USEFUL EXAMPLES :-                                     💡 Tips:                         |
+| ───────────────────                                    ─────────                         |
+|  * Win + Left/Right Arrow  --> Screen ko split         -> Keyboard me "Win" key par      |
+|                               karta hai (Do apps          Windows ka logo bana hota hai. |
+|                               ek sath chalane ke liye)| -> Agar koi app hang ho jaye to  |
+|  * Ctrl + Alt + Delete     --> Security options           Ctrl+Shift+Esc daba kar band   |
+|                               screen kholta hai.          karein.                        |
+|  * Win + Shift + S         --> Snipping Tool se        -> Win+D dobara dabane se saari   |
+|                               chota screenshot lein.      windows wapis aa jati hain.    |
+|                                                                                          |
+|   Practice Task                                                                          |
+|  ───────────────                                ┌─────────────┐                          |
+|   1. Desktop par khuli saari windows ko         │  Practice   │ 4. Keyboard se ek sath   |
+|      Win+D daba kar ek sath chupao.             │    makes    │    do apps chalane ke    |
+|   2. Win+E dabao aur check karo File Explorer   │   perfect   │    liye arrow keys use   |
+|      khul raha hai ya nahi.                     │     (^_^)   │    karke dekho.          |
+|   3. Win+R daba kar usme "notepad" likho aur    └─────────────┘                          |
+|      enter karo.                                                                         |
+|__________________________________________________________________________________________|
