@@ -89,8 +89,53 @@ Examples:
 
 English
 Arabic
+
+6. Base64 :-
+Definition :
+
+Base64 is an encoding method that converts binary data into readable text.
+
+Example
+
+Original:
+
+Hello
+
+Encoded:
+
+SGVsbG8=
 Urdu
 Chinese
 Emojis 😀😁😂
 
 Unicode enables software to display multilingual text correctly.
+
+7. Bits and Bytes :-
+
+Bit :
+
+The smallest unit of data.
+
+0
+or
+1
+
+Byte :
+8 Bits = 1 Byte
+
+Example:
+
+01000001
+
+This represents one byte.
+
+Storage Units  :-
+8 Bits = 1 Byte
+
+1024 Bytes = 1 KB
+
+1024 KB = 1 MB
+
+1024 MB = 1 GB
+
+1024 GB = 1 TB
