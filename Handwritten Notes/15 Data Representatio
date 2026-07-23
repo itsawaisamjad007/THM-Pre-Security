@@ -139,3 +139,13 @@ Storage Units  :-
 1024 MB = 1 GB
 
 1024 GB = 1 TB
+
+TryHackMe Tips
+
+During this room, you may be asked to:
+
+Convert Binary ↔ Decimal
+Convert Decimal ↔ Hexadecimal
+Identify ASCII characters
+Encode or decode Base64 strings
+Understand how computers represent different types of data
