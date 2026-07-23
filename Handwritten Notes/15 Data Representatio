@@ -14,7 +14,7 @@ Learning Map :-
               * Base64
               * Bits and Bytes
 
-1. Binary (Base-2)
+1. Binary (Base-2)  :-
 Definition
 
 Binary is the number system used by computers. It contains only two digits:
@@ -23,3 +23,22 @@ Binary is the number system used by computers. It contains only two digits:
 * 1
 
 Every piece of information inside a computer is stored as binary.
+
+Example
+Binary: 1010
+1010₂ = 10₁₀
+
+
+
+2. Decimal (Base-10)   :-
+Definition
+
+Decimal is the number system humans use in everyday life.
+
+Digits:
+
+0 1 2 3 4 5 6 7 8 9
+Example
+25
+100
+356
