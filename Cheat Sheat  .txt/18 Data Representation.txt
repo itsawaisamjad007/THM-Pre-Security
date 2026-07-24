@@ -1,0 +1,104 @@
+====================================================================================================
+                        DATA REPRESENTATION MASTER REFERENCE SHEET
+====================================================================================================
+
+[1] ROOM OVERVIEW & ROADMAP
+────────────────────────────────────────────────────────────────────────────────────────────────────
+Module   : Pre-Security / Cyber Security Fundamentals
+Target   : Binary, Hexadecimal, ASCII, File Signatures, & Data Encoding Schemes
+Roadmap  : 
+  • Topic 1: Binary & Decimal Systems (Base-2 vs Base-10)
+  • Topic 2: Hexadecimal System (Base-16)
+  • Topic 3: Text Encoding (ASCII, Unicode, UTF-8)
+  • Topic 4: File Signatures & Magic Bytes
+  • Topic 5: Data Encoding Schemes (Base64 & URL Encoding)
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+[2] TOPIC 1: BINARY & DECIMAL SYSTEMS
+────────────────────────────────────────────────────────────────────────────────────────────────────
+• Definition   : Binary (Base-2) uses digits '0' and '1'. Decimal (Base-10) uses '0-9'. Transistors 
+                 act as physical switches (OFF=0, ON=1). 8 Bits = 1 Byte.
+• Urdu Summary : Computer sirf 0 aur 1 (electrical signals) samajhta hai.
+• Analogy      : 8-Switch Wall Panel — har switch ka ON/OFF hona unique code banata hai.
+• Byte Diagram : 
+    Bit Position:     7    6    5    4    3    2    1    0
+    Place Value:     128   64   32   16   8    4    2    1
+    ───────────────────────────────────────────────────────
+    Binary Byte:      0    1    0    0    0    0    0    1  ==> Decimal 65 (ASCII 'A')
+• Cyber Use    : Process memory (RAM) storage, network packets, bitwise cryptography.
+• Commands     : echo "obase=2; 65" | bc
+                 echo -n "A" | xxd -b
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+[3] TOPIC 2: HEXADECIMAL SYSTEM (BASE-16)
+────────────────────────────────────────────────────────────────────────────────────────────────────
+• Definition   : Base-16 system using 0-9 and A-F (A=10, B=11, C=12, D=13, E=14, F=15).
+• Urdu Summary : Binary bohot lambe hote hain, is liye 4-bit binary ko 1 Hex digit mein chota
+                 karke likha jata hai. 1 Byte = 2 Hex digits (e.g., 0x41).
+• Mapping      : 0000=0 | 1001=9 | 1010=A | 1011=B | 1100=C | 1101=D | 1110=E | 1111=F
+• Cyber Use    : RAM Memory Addresses (0x7fff...), Shellcode, Buffer Overflow Payloads (\x90\xcc).
+• Commands     : echo -n "Cyber" | xxd
+                 echo "4379626572" | xxd -r -p
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+[4] TOPIC 3: TEXT ENCODING (ASCII & UNICODE)
+────────────────────────────────────────────────────────────────────────────────────────────────────
+• Definition   : Maps characters to numbers. ASCII uses 7/8 bits (0-127/255). Unicode (UTF-8) 
+                 supports all global scripts and emojis.
+• Urdu Summary : 'A' press karne par computer uski ASCII value 65 (01000001) memory mein save karta hai.
+• Data Flow    : [Input 'A'] ──► [ASCII Lookup: 65] ──► [Binary: 01000001] ──► [RAM Storage]
+• Cyber Use    : Log analysis, Unicode normalization tricks, WAF evasion techniques.
+• Commands     : python3 -c "print(ord('A'))"
+                 python3 -c "print(chr(65))"
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+[5] TOPIC 4: FILE SIGNATURES & MAGIC BYTES
+────────────────────────────────────────────────────────────────────────────────────────────────────
+• Definition   : Specific header byte sequence at the start of a file that defines its true type.
+• Urdu Summary : Extension badalne se file ki asliyat nahi badalti. File ke pehle bytes (Magic 
+                 Bytes) se asli identity ka pata chalta hai (jaise Human DNA/Fingerprint).
+• Signatures Table:
+    File Type   │ Extension │ Magic Bytes (Hex)       │ ASCII View
+    ────────────┼───────────┼─────────────────────────┼────────────
+    PNG Image   │ .png      │ 89 50 4E 47 0D 0A 1A 0A │ .PNG....
+    JPEG Image  │ .jpg      │ FF D8 FF E0             │ ....
+    PDF Doc     │ .pdf      │ 25 50 44 46             │ %PDF
+    Executable  │ .exe      │ 4D 5A                   │ MZ
+    ZIP Archive │ .zip      │ 50 4B 03 04             │ PK..
+• Cyber Use    : Forensics file carving, bypass analysis for restricted web file uploads.
+• Commands     : xxd -l 8 image.png
+                 file suspicious_file.doc
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+[6] TOPIC 5: DATA ENCODING SCHEMES (BASE64 & URL ENCODING)
+────────────────────────────────────────────────────────────────────────────────────────────────────
+• Base64       : Converts binary data into 64 printable ASCII characters (A-Z, a-z, 0-9, +, /) 
+                 with '=' padding. (NOTE: Encoding is NOT Encryption!).
+• URL Encoding : Replaces unsafe HTTP characters with '%' followed by Hex (e.g., Space = %20).
+• Urdu Summary : Data transport ke waqt kharab na ho is liye bubble-wrap ki tarah encode karte hain.
+• Conversion   : Plaintext: Hello World! ──► Base64: SGVsbG8gV29ybGQh ──► URL: Hello%20World%21
+• Cyber Use    : Analyzing web cookies, API tokens, obfuscated malware payloads.
+• Commands     : echo -n "Cyber" | base64
+                 echo "Q3liZXJTZWN1cml0eQ==" | base64 -d
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+[7] REVISION CHEAT SHEET & SUMMARY
+────────────────────────────────────────────────────────────────────────────────────────────────────
+  Scheme       │ Pattern / Range │ Example Output │ Primary Purpose
+  ─────────────┼─────────────────┼────────────────┼─────────────────────────────────
+  Binary       │ 0 & 1           │ 01000001       │ Hardware states / Transistors
+  Hexadecimal  │ 0-9, A-F        │ 0x41           │ Human-readable bytes & Memory
+  ASCII        │ Range 0–127     │ 65 = 'A'       │ Character to number mapping
+  Base64       │ Ends in = / ==  │ SGVsbG8=       │ Safe text protocol transport
+  URL Encoding │ Starts with %   │ %20 (Space)    │ Web parameter safety
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+[8] INTERVIEW & DEFENSIVE SUMMARY
+────────────────────────────────────────────────────────────────────────────────────────────────────
+• Q: Extension badalne par file type kaise check hoti hai?
+  A: Magic Bytes (File Signatures) ke zariye `file` command ya hex editor se header analyze karke.
+• Q: Encoding, Encryption, aur Hashing mein farq kya hai?
+  A: Encoding = Data format conversion (No Key, Reversible).
+     Encryption = Confidentiality protection (Requires Key, Reversible).
+     Hashing = One-way integrity verification (No Key, Irreversible).
+====================================================================================================
